@@ -23,10 +23,13 @@ body{
 .link-container{
     display: flex;
     gap:18px;
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
+.header-link{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
 .hero-container{
     flex:1;
     padding: 100px 150px;
@@ -79,6 +82,7 @@ body{
     justify-content: center;
     align-items: center;
     gap:32px;
+    margin-bottom: 100px;
 }
 
 .card>img{
@@ -107,4 +111,33 @@ body{
     padding: 8px;
     font-size: 18px;
     text-align: center;
+}
+
+.quote-container{
+    padding:100px 250px;
+    background-color:#E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style:italic;
+    text-align: justify;
+}
+
+.byline{
+    margin-left: auto;
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.quote-container>p{
+    margin: 0;
 }
