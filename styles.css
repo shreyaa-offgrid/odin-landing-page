@@ -141,3 +141,37 @@ body{
 .quote-container>p{
     margin: 0;
 }
+
+.call-to-action{
+    background-color: #3882F6;
+    display: flex;
+    margin: 100px 150px;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.call-to-action>button{
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.call-left>h3,
+.call-left>p{
+    margin: 0;
+}
+
+.footer{
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
